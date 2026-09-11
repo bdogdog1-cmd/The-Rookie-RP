@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Rookie RP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🚓 The Rookie RP</h1>
+        <p>Find your character. Find your people. Start your story.</p>
+    </header>
+
+    <main>
+
+        <section class="card">
+            <h2>Join The Rookie RP</h2>
+
+            <label for="name">Display Name</label>
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your display name"
+            >
+
+            <label for="age">Age Group</label>
+            <select id="age">
+                <option value="">Choose your age group</option>
+                <option value="13-15">13–15</option>
+                <option value="16-17">16–17</option>
+                <option value="18-20">18–20</option>
+                <option value="21+">21+</option>
+            </select>
+
+            <label for="character">Choose Your Character</label>
+            <select id="character">
+                <option value="">Choose a character</option>
+                <option>Tim Bradford</option>
+                <option>Lucy Chen</option>
+                <option>John Nolan</option>
+                <option>Angela Lopez</option>
+                <option>Nyla Harper</option>
+                <option>Wade Grey</option>
+                <option>Celina Juarez</option>
+                <option>Aaron Thorsen</option>
+                <option>Original Character</option>
+            </select>
+
+            <button onclick="joinRP()">Join the RP</button>
+
+            <p id="message"></p>
+        </section>
+
+        <section class="card">
+            <h2>🛡️ Community Rules</h2>
+
+            <ul>
+                <li>Be respectful to other members.</li>
+                <li>Keep minors and adults in separate spaces.</li>
+                <li>No harassment or bullying.</li>
+                <li>Respect everyone's boundaries.</li>
+                <li>Keep roleplay appropriate for the age group.</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 The Rookie RP</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
